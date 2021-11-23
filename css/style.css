@@ -1,0 +1,153 @@
+/*Definições para todo o documento*/
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+    bottom: 0;
+}
+/*----*/
+
+/*Definições para o corpo do documento*/
+body{
+    background-color: #222831;
+}
+/*----*/
+
+/*Container*/
+#container{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+
+    background-color: white;
+}
+/*----*/
+
+/*Header*/
+header{
+    background-color: #00ADB5;
+    padding: 10px;
+}
+header h1{
+    text-align: center;
+    color: #EEEEEE;
+    font-size: 26px;
+}
+/*----*/
+
+/*Section*/
+section{
+    background-image: url(../_img/people.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 20px;
+}
+/*----*/
+
+/*ContainerForm*/
+#containerForm{
+    background-color: #eeeeeeb6;
+
+    float: right;
+    width: 350px;
+    padding: 20px;
+}
+
+#containerForm h2{
+    margin-bottom: 10px;
+}
+
+form input, form select{
+    display: block;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+
+    border: none;
+}
+
+form select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-progress-appearance: none;
+
+    background-image: url(../_img/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+
+form input[type="submit"]{
+    background-color: #00ADB5;
+    color: #eeeeee;
+}
+
+form input[type="submit"]:hover{
+    background-color: #00838a;
+    cursor: pointer;
+    font-weight: bolder;
+}
+/*----*/
+
+/*Footer*/
+footer{
+    background-color: #393E46;
+    color: #eeeeee;
+    padding: 40px;
+    text-align: center;
+}
+
+footer img{
+    width: 150px;
+    display: inline-block;
+}
+
+#about{
+    width: 350px;
+    display: inline-block;
+    text-align: start;
+    margin-left: 20px;
+}
+
+#about h3{
+    font-size: 22px;
+}
+
+#about p{
+    margin-top: 20px;
+}
+/*----*/
+
+/*Alert*/
+#alert{
+    margin: 50px 0px 50px 0px;
+    color: #eeeeee;
+    text-align: center;
+}
+/*----*/
+
+/*Media Max 650px*/
+@media (max-width: 650px) {
+    /*Section*/
+    #containerForm{
+        float: none;
+        margin: auto;
+    }
+    /*----*/
+
+    /*Footer*/
+    footer img{
+        display: block;
+        margin: auto;
+    }
+
+    #about{
+        display: block;
+        margin: 40px auto 0px auto;
+    }
+    /*----*/
+}
+/*----*/
