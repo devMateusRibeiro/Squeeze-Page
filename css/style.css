@@ -38,7 +38,7 @@ header h1{
 
 /*Section*/
 section{
-    background-image: url(../_img/people.jpg);
+    background-image: url(../img/people.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -74,7 +74,7 @@ form select{
     -webkit-appearance: none;
     -ms-progress-appearance: none;
 
-    background-image: url(../_img/arrow.jpg);
+    background-image: url(../img/arrow.jpg);
     background-repeat: no-repeat;
     background-position-x: calc(100% - 10px);
     background-position-y: center;
